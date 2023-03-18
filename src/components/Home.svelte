@@ -5,7 +5,7 @@
 <main class="home">
 	<div class="container">
 		<div class="left">
-			<h1 class="heading">Get <div class="highlight">insights</div> that help your business grow.</h1>
+			<h1 class="heading">Get <span class="highlight">insights</span> that help your business grow.</h1>
 			<p class="text">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
 			<div class="rate">
 				<div class="stat">
@@ -49,7 +49,7 @@
 		@apply bg-[#1b1938] rounded-tl-[10px] rounded-bl-[10px] flex flex-col p-[60px] pr-[120px];
 	}
 	.heading {
-		@apply text-[36px] text-[#ffffff] font-bold font-['Inter'];
+		@apply text-[32px] text-[#ffffff] font-bold font-['Inter'];
 	}
 	.highlight {
 		@apply inline-block text-[#aa5cdb] text-[32px];
@@ -81,9 +81,6 @@
 	@media only screen and (max-width: 1150px) {
 		.container {
 			width: calc(100% - 32px);
-		}
-		.heading, .highlight {
-			font-size: 32px;
 		}
 		.left {
 			padding-left: 50px;
