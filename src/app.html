@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Stats preview card component" />
+		<meta name="keywords" content="Stats preview card component" />
+		<meta name="author" content="Minnaingkoko" />
+		<title>Stats preview card component</title>
+		%sveltekit.head%
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+			@font-face {
+				font-family: 'Inter';
+				src: url('/fonts/Inter-Regular.ttf') format('ttf'), url('/Inter-Bold.ttf') format('ttf');
+				font-weight: normal;
+				font-style: normal;
+			}
+			@font-face {
+				font-family: 'LexendDeca';
+				src: url('/fonts/LexendDeca-Regular.ttf') format('ttf');
+				font-weight: normal;
+				font-style: normal;
+			}
+			body {
+				font-family: 'LexendDeca', sans-serif;
+			}
+		</style>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
